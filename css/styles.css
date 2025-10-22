@@ -10993,3 +10993,17 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+.titulo-principal {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+
+
+/* --- Ajuste de imágenes del menú --- */
+.menu-img {
+  width: 100%;
+  height: 200px;          /* ✅ misma altura para todas las imágenes */
+  object-fit: cover;      /* ✅ mantiene proporción sin deformar */
+  border-radius: 10px;    /* opcional: esquinas redondeadas */
+  margin-bottom: 10px;    /* espacio debajo de la imagen */
+}
